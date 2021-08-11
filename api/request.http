@@ -1,0 +1,37 @@
+
+### Post guardar Coordenadas del Usuario
+POST http://127.0.0.1:5000/api/locations/send
+Content-Type: application/json
+
+#Esto es el request Body
+{
+
+"user": "610ab3d07e43f80bdc4df2ee",
+"coordinate": "-34.6461605,-58.3913952"
+
+}
+
+### Post login Usuario
+
+POST http://127.0.0.1:5000/api/login
+Content-Type: application/json
+
+#Esto es el request Body
+{
+
+"email": "leo456@gmail.com",
+"password": "Homero77"
+
+}
+
+### Crear nuevo Usuario
+POST http://127.0.0.1:5000/api/login/new
+Content-Type: application/json
+
+#Esto es el request Body
+{
+"nombre": "paul",
+"email": "paul426@gmail.com",
+"password": "Enriapp12"
+
+}
